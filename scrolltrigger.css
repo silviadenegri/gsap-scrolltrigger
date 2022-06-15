@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color:rgb(245, 163, 0);
+
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+section{
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:nth-child(even) {
+    background-color: yellowgreen;
+}
+
+.section-pin {
+    background-color: yellowgreen;
+    background-image: linear-gradient(purple, blue, red, orange, yellow);
+}
+
+blockquote {
+    font-size: 3rem;
+    max-width: 40ch;
+}
+
+span {
+    /* border: 1px solid white; */
+}
+
+.section-circle { 
+    background-color: yellow;
+}
+
+.circle {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background-color: orange;
+}
